@@ -20,5 +20,6 @@ for shift in shifts:
     event.create(name, startDateFull, start, end)
     numevents += 1
     startDate += 1
+    break
 
 print(f"\n\nAutomation Complete \n{numevents} Events Created")
